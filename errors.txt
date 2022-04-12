@@ -1,0 +1,10 @@
+-- incorrect password
+pymysql.err.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+
+-- incorrect user
+RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+
+-- commenting out 'with self.connection.cursor() as cursor:'
+TypeError: 'bool' object is not iterable
+
+-- getting kicked off server various times when you mess with function syntax in server.py
